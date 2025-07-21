@@ -7,3 +7,5 @@ Descarga el audio utilizando pytubefix.
 Canciones en el directorio de salida /musica. Lo crea si no existe.
 
 Puedes seleccionar el número máximo de canciones por artista. Puede incluir canciones similares indexadas en la búsqueda de algún artista. (max_songs)
+
+pytube no es capaz de aceptar consentimientos si el video tiene restricciones de edad u otras por lo que hay videos que pueden fallar en la descarga
