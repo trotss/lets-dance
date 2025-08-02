@@ -1,11 +1,29 @@
-# lets-dance
-Using youtube API create playlist &amp; download them w/ pytube
+# 🎵 lets-dance
 
-Incluye todos los artistas que quieras en la variable 'ARTISTAS'. Habilita la API de youtube v3 en la consola de google y consigue un token.
-Genera ./musica.csv con los títulos de las canciones y las urls
-Descarga el audio utilizando pytubefix.
-Canciones en el directorio de salida /musica. Lo crea si no existe.
+Create custom music playlists using the YouTube API and download them effortlessly using [`pytube`](https://github.com/pytube/pytube).
 
-Puedes seleccionar el número máximo de canciones por artista. Puede incluir canciones similares indexadas en la búsqueda de algún artista. (max_songs)
+---
 
-pytube no es capaz de aceptar consentimientos si el video tiene restricciones de edad u otras por lo que hay videos que pueden fallar en la descarga
+## 📦 Features
+
+- ✅ Search and collect songs for any list of artists.
+- ✅ Automatically generates a `musica.csv` with song titles and URLs.
+- ✅ Downloads audio tracks to a local `/musica` directory (created if it doesn't exist).
+- ✅ Select the maximum number of songs per artist.
+- ✅ Optionally includes similar/recommended songs in the results.
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.8+
+- YouTube Data API v3 key
+- See `requirements.txt` for package dependencies.
+
+Install them using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Habilita la API de youtube y obtén el token en: https://console.cloud.google.com/apis/library
